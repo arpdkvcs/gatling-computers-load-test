@@ -49,6 +49,8 @@ Users search and browse, while admins do all 3 activities.
 There are 10 users and 2 admins, and they start using the site at different times in a 10 seconds period. By this the scenarios are more real life like.
 All these parameters can easily be changed in the `setUp` section of the ***AdvancedSimulation.java*** class.
 
+The admins' scenario also simulate random failed requests where we expect 200 as response, but we randomly change it to 201 so there are random failed requests as well.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
