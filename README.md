@@ -84,7 +84,7 @@ _Steps:_
    ```sh
    git clone https://github.com/arpdkvcs/gatling-computers-load-test.git
    ```
-2. Run the test
+2. Run the test (inside repo folder)
     ```sh
     mvn gatling:test
     ```
